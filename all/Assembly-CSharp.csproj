@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7A5640DD-D38B-5C76-0ABC-A5A6FC3BCA2A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Ball\Scripts\BallV2.cs" />
+     <Compile Include="Assets\Ball\Scripts\Border.cs" />
+     <Compile Include="Assets\Ball\Scripts\CloneBall.cs" />
+     <Compile Include="Assets\Ball\Scripts\CreateSpark.cs" />
+     <Compile Include="Assets\Ball\Scripts\GlobalSpeed.cs" />
+     <Compile Include="Assets\Ball\Scripts\SparkDelayPS.cs" />
+     <Compile Include="Assets\Blocks\Exploits\StopAndDestroy.cs" />
+     <Compile Include="Assets\Blocks\Script\BonusDrop.cs" />
+     <Compile Include="Assets\Blocks\Script\BuildingScenes_block.cs" />
+     <Compile Include="Assets\Blocks\Script\BuildingScenes_block_v2_0.cs" />
+     <Compile Include="Assets\Blocks\Script\ChildMoves.cs" />
+     <Compile Include="Assets\Blocks\Script\ConfigBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\DestroyBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\ExploidBlock_action.cs" />
+     <Compile Include="Assets\Blocks\Script\FunctionBuildingScenes.cs" />
+     <Compile Include="Assets\Blocks\Script\ListBonus.cs" />
+     <Compile Include="Assets\Blocks\Script\ListConfigBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\Main.cs" />
+     <Compile Include="Assets\Blocks\Script\MoveBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\PodChildMoves.cs" />
+     <Compile Include="Assets\Blocks\Script\PodChildMovesRotate.cs" />
+     <Compile Include="Assets\Blocks\Script\PodDestroy.cs" />
+     <Compile Include="Assets\Blocks\Script\RotateBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\SelectStyleGeneral.cs" />
+     <Compile Include="Assets\Blocks\Script\StyleLevelBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\podFunctionMoveForBlocks.cs" />
+     <Compile Include="Assets\Blocks\Script\podFunctionRotateForBlock.cs" />
+     <Compile Include="Assets\Blocks\Script\test.cs" />
+     <Compile Include="Assets\Bonus\Script\GravityBonus.cs" />
+     <Compile Include="Assets\MainMenu\Script\ActionButtonsKey.cs" />
+     <Compile Include="Assets\MainMenu\Script\ArrowButton.cs" />
+     <Compile Include="Assets\MainMenu\Script\PlayerPrefsX.cs" />
+     <Compile Include="Assets\MainMenu\Script\PowerButton.cs" />
+     <Compile Include="Assets\MainMenu\Script\RatioAspect\AlignmentGUI.cs" />
+     <Compile Include="Assets\MainMenu\Script\RatioAspect\ObjectAspectMenu.cs" />
+     <Compile Include="Assets\MainMenu\Script\RatioAspect\ShellAligmentGUI.cs" />
+     <Compile Include="Assets\MainMenu\Script\ReSelectTexture.cs" />
+     <Compile Include="Assets\MainMenu\Script\SaveLoadDataMenu.cs" />
+     <Compile Include="Assets\MainMenu\Script\ScenesInformation.cs" />
+     <Compile Include="Assets\MainMenu\Script\SelectLoadLevel.cs" />
+     <Compile Include="Assets\MainMenu\Script\SendMyName.cs" />
+     <Compile Include="Assets\MainMenu\Script\Settings\ActionTransformPumpVolume.cs" />
+     <Compile Include="Assets\MainMenu\Script\Settings\Close.cs" />
+     <Compile Include="Assets\MainMenu\Script\Settings\ControlPumpVolume.cs" />
+     <Compile Include="Assets\MainMenu\Script\Settings\ProcentPumpInfo.cs" />
+     <Compile Include="Assets\MainMenu\Script\Settings\ProcentUpdateVolume.cs" />
+     <Compile Include="Assets\MainMenu\Script\Settings\PumpControl.cs" />
+     <Compile Include="Assets\MainMenu\Script\UpdateLevelNum.cs" />
+     <Compile Include="Assets\Menu\Script\ActiveDeButtons.cs" />
+     <Compile Include="Assets\Menu\Script\ButtonGameS.cs" />
+     <Compile Include="Assets\Menu\Script\EndGame.cs" />
+     <Compile Include="Assets\Menu\Script\FPSUpdateText.cs" />
+     <Compile Include="Assets\Menu\Script\RestartGame.cs" />
+     <Compile Include="Assets\Menu\Script\Speed.cs" />
+     <Compile Include="Assets\Menu\Script\SwitcherMenu.cs" />
+     <Compile Include="Assets\Menu\Script\UpdateLevelNumberG.cs" />
+     <Compile Include="Assets\Menu\Script\goMenu.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\ActionBonus.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\ControlParticleSystemLeft.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\ControlParticleSystemRight.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\FireAnimation.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\HalfDestroy.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\Magnite.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\Player.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\PlayerAnimationScript.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\ResetGame_ball.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\ScreenControllerMessage.cs" />
+     <Compile Include="Assets\Player\Karetka\Script\Shot.cs" />
+     <Compile Include="Assets\Player\Settings\Life\CorrectLife.cs" />
+     <Compile Include="Assets\Player\Settings\Score\Script\CalculateScore.cs" />
+     <Compile Include="Assets\Player\Settings\Score\Script\Price.cs" />
+     <None Include="Assets\Player\Karetka\Shaders\karetka_shader(del).shader" />
+     <None Include="Assets\Player\Karetka\Materials\Shader\Basic Outline.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

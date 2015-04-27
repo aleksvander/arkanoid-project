@@ -1,0 +1,22 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-2540
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=2517 outsize=1448 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (110): implicit truncation of vector type
+  error: 1 plat 4 at (111): implicit truncation of vector type
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  api=4 type=0 insize=6537 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=4484 outsize=855 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1172 outsize=1908 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1172 outsize=437 kw= ok=1
+Unhandled exception: Readfile from pipe failed. GLE=Канал был закрыт.
+
+
+Quitting shader compiler process
